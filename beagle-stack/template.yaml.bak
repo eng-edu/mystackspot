@@ -1,9 +1,0 @@
-name: beagle-stack-template
-description: base template for beagle application.
-types:
-  - app-template
-inputs:
-  - label: Project name
-    type: text
-    name: project_name
-    default: project-name
