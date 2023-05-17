@@ -1,4 +1,4 @@
-name: starter
+name: beagle-stack
 description: base template for android beagle application.
 types:
   - app-template
@@ -22,3 +22,4 @@ hooks:
   - type: run-script
     trigger: before-render
     script: before-render.py
+    
