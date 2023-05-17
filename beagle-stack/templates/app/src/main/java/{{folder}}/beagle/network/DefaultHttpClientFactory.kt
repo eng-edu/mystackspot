@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit.beagle.network
+package {{group_id_default}}.beagle.network
 
 import br.com.zup.beagle.android.annotation.BeagleComponent
 import br.com.zup.beagle.android.networking.HttpClient

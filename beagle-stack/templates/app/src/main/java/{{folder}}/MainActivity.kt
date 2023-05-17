@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit
+package {{group_id_default}}
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

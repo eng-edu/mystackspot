@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit.beagle.network
+package {{group_id_default}}.beagle.network
 
 import java.lang.Exception
 import java.net.HttpURLConnection

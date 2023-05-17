@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.beagleandroidinit'
+    namespace '{{group_id_default}}'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.beagleandroidinit"
+        applicationId "{{group_id_default}}"
         minSdk 19
         targetSdk 32
         versionCode 1

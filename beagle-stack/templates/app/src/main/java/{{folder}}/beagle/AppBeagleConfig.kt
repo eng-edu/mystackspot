@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit.beagle
+package {{group_id_default}}.beagle
 
 import br.com.zup.beagle.android.annotation.BeagleComponent
 import br.com.zup.beagle.android.setup.BeagleConfig

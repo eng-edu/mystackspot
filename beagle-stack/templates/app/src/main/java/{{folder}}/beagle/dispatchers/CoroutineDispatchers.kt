@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit.beagle.dispatchers
+package {{group_id_default}}.beagle.dispatchers
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

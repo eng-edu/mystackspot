@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit.beagle.logger
+package {{group_id_default}}.beagle.logger
 
 import android.util.Log
 import br.com.zup.beagle.android.annotation.BeagleComponent

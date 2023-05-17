@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "BeagleAndroidInit"
+rootProject.name = "{{project_name}}"
 include ':app'

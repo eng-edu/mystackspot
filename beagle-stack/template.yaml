@@ -1,9 +1,24 @@
-name: beagle-stack-template
-description: base template for beagle application.
+name: starter
+description: base template for android beagle application.
 types:
   - app-template
 inputs:
-  - label: Project name
+  - label: "Informe o nome do projeto"
     type: text
     name: project_name
-    default: project-name
+    default: AndroidBeagleTest
+    global: true
+  - label: "Informe o groupID"
+    type: text
+    name: group_id
+    default: br.com.example
+    global: true
+    
+global-computed-inputs: 
+  group_id_default: "{% if group_id == 'br.com.example' %}{{group_id}}.{{project_name|replace('-', '.')|lower}}{% else %}{{group_id}}{% endif %}"
+  folder: "{{global_computed_inputs.group_id_default|group_id_folder}}"
+
+hooks:
+  - type: run-script
+    trigger: before-render
+    script: before-render.py

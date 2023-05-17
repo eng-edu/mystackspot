@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit
+package {{group_id_default}}
 
 import android.app.Application
 

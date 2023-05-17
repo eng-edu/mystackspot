@@ -1,4 +1,4 @@
-package com.example.beagleandroidinit.beagle.network
+package {{group_id_default}}.beagle.network
 
 import br.com.zup.beagle.android.annotation.BeagleComponent
 import br.com.zup.beagle.android.exception.BeagleApiException
@@ -7,7 +7,7 @@ import br.com.zup.beagle.android.networking.HttpMethod
 import br.com.zup.beagle.android.networking.RequestCall
 import br.com.zup.beagle.android.networking.RequestData
 import br.com.zup.beagle.android.networking.ResponseData
-import com.example.beagleandroidinit.beagle.dispatchers.CoroutineDispatchers
+import {{group_id_default}}.beagle.dispatchers.CoroutineDispatchers
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
